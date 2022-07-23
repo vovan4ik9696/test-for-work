@@ -17,5 +17,11 @@
 
     background-color: #A5C7F9;
     border-radius: 5px;
+
+    transition: background-color .4s;
+
+    &:hover {
+    background-color: #b7d2fa;
+    }
   }
 }
