@@ -42,7 +42,7 @@ function styles() {
       // 'node_modules/slick-carousel/slick/slick.scss',
     ])
     .pipe(scss({
-      outputStyle: 'compressed'
+      outputStyle: 'expanded'
     }))
     // .pipe(addSrc([
     //   'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css'
