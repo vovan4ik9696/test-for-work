@@ -1,0 +1,18 @@
+.block-2 {
+  display: flex;
+  padding: 30px;
+  margin-bottom: 100px;
+
+  background-color: #88B5BF;
+
+  &__item {
+    padding: 8.964%;
+    flex: 1 1 auto;
+
+    background-color: #0D89B0;
+
+    &+& {
+      margin-left: 30px;
+    }
+  }
+}

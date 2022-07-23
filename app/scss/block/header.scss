@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+
+  background-color: #7FAFF6;
+
+
+  &__pop-up {
+    padding: 8px 15px;
+
+    font-size: 20px;
+    line-height: 1.1;
+    color: #fff;
+
+    background-color: #A5C7F9;
+    border-radius: 5px;
+  }
+}

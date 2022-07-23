@@ -1,0 +1,42 @@
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 300px;
+  height: 300px;
+
+  color: #fff;
+  font-size: 40px;
+
+  background-color: #A5C7F9;
+
+  transform: translate(-50%, -50%) scale(0);
+
+  z-index: 1;
+  transition: transform .6s;
+
+  &__close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+
+    color: #fff;
+
+    transform: rotate(45deg);
+
+    transition: color .4s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+#popup:target {
+  transform: translate(-50%, -50%) scale(1);
+}

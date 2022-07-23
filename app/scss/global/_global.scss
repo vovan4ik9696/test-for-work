@@ -1,0 +1,16 @@
+body {
+  font-family: Roboto, sans-serif;
+
+  counter-reset: number 0;
+}
+
+.wrapper {
+  background-color: #C0DBD9;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+}
